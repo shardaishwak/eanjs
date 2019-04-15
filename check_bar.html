@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bar code calcularor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="check_bar.css" />
+</head>
+<body>
+    
+    <div class="container">
+        <form onsubmit="checkBar(event)" class="mt-3">
+            Numbers: <input type="text" placeholder="13 digits code..." name="numbers" class="form-control mt-2 mb-4">
+            <button class="ml-2 btn btn-dark">Check Bar</button>
+            <a href="bar_code.html" class="btn btn-light ml-2">Last Code</a>
+            <div class="container mt-4 custom pt-3 pb-3" id="output"></div>
+        </form>
+        
+    </div>
+
+    <script src="check_bar.js"></script>
+</body>
+</html>

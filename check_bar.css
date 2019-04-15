@@ -1,0 +1,10 @@
+.custom {
+    border-radius: 5px;
+    color: #fff;
+}
+.bolder {
+    font-weight: bold;
+}
+input {
+    letter-spacing: 3px;
+}
